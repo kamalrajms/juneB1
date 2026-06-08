@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Greeting() {
+export default function Greeting(props) {
   return (
-    <div>
-      <h3>react.js</h3>
+    <div className="greeting">
+      <h3>react.js--{props.name}</h3>
       
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quia

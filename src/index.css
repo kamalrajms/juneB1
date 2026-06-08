@@ -1,0 +1,20 @@
+.greeting {
+  background-color: aqua;
+  padding: 20px;
+}
+.eg {
+  background: #000;
+  color: aliceblue;
+  padding: 20px;
+}
+.destructure {
+  background-color: blue;
+  padding: 20px;
+}
+.Externalstyle{
+    margin: 100px;
+    background: #000;
+}
+.ModuleStyle{
+    margin: 500px;
+}

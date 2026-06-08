@@ -1,14 +1,46 @@
 import React from "react";
 import Greeting from "./Greeting";
 import Eg from "./Eg";
+import DestructuringProps from "./DestructuringProps";
+import Externalstyle from "./Externalstyle";
+import ModuleStyle from "./ModuleStyle";
+import ObjStyle from "./ObjStyle";
 
 export default function App() {
+  const name = "rahul";
+  const city = "salem";
+  const num = "8525656";
+
+  const name2 = "kumar";
+  const city2 = "chennai";
+  const num2 = "5644";
+
+  const name3 = "kumar kannan";
+  const city3 = "namakkal";
+  const num3 = "65848484";
+
   return (
     <>
-      <h2>hello world</h2>
-      <Greeting />
+      <ObjStyle />
+      <ModuleStyle />
+      <Externalstyle />
+      <h2 style={{ padding: "20px", backgroundColor: "red" }}>
+        hello world {name}
+      </h2>
+
+      <DestructuringProps
+        name={name2}
+        name={name}
+        name={name3}
+        city={city}
+        num={num}
+      />
+      <DestructuringProps name={name2} city={city2} num={num2} />
+      <DestructuringProps name={name3} city={city3} num={num3} />
+
+      <Greeting name={name} />
       <Eg />
-      <Greeting />
+      {/* <Greeting first={name2}/> */}
     </>
   );
 }
