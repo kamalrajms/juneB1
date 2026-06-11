@@ -5,6 +5,9 @@ import DestructuringProps from "./DestructuringProps";
 import Externalstyle from "./Externalstyle";
 import ModuleStyle from "./ModuleStyle";
 import ObjStyle from "./ObjStyle";
+import ConditionalRendering from "./Component/ConditionalRendering";
+import ListRendering from "./Component/ListRendering";
+import UseStateHook from "./Component/UseStateHook";
 
 export default function App() {
   const name = "rahul";
@@ -21,6 +24,9 @@ export default function App() {
 
   return (
     <>
+      <UseStateHook />
+      <ListRendering />
+      <ConditionalRendering />
       <ObjStyle />
       <ModuleStyle />
       <Externalstyle />

@@ -47,3 +47,44 @@
     module styleing ---- we need to declear the file name as eg:[filename.module.css]
     inline styleing ---- we need to call a style attribute with {{padding:"20px}}
     object styleing ---- we need to create an obj and declear the styleing properties in keys:values pair.
+
+11/06/2026
+
+## conditional rendering
+
+    Conditional rendering means showing or hiding parts of UI based on some condition.
+
+            ternary operator    {condition?true:false}
+            Logical operator       &&  ||  !
+
+## list Rendering :
+
+    Rendering multiple items dynamically  using map()
+
+    a=[1,2,3,4]
+
+    a.map((name)=>(
+        name*2
+    ))
+
+    [2,4,6,8]
+
+
+## usestate()
+
+     usestate is a react hook that allows you to add state (data that can change over time)
+     your a functional component.
+
+     Normally in js  functions, variables disappear after the function runs, but with usestate,
+     reat remembers values b/w re-renders.
+
+        syntax:
+
+            const[state,setState]=usestate(initiateValue)
+
+            const[count,setCount]=usestate(222)
+
+            state-the current value of the state variable.
+            setState-- a function that update the  state.
+            initiateValue--- the starting value of the state.
+
