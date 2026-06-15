@@ -69,6 +69,7 @@
 
     [2,4,6,8]
 
+12/06/2026
 
 ## usestate()
 
@@ -88,3 +89,25 @@
             setState-- a function that update the  state.
             initiateValue--- the starting value of the state.
 
+15/06/2026
+
+## useEffect()
+
+    In react ,useEffect is a Hook that lets you perform side effect in 
+    functional component.
+    Side effects are task that happends outside  the normal react rendering process,
+    Like:       
+            Fetching data from an API
+            Updating the browser DOM manualluy
+            starting/stoping timers.
+
+    syntax:
+
+            useEffect(()=>{
+                //code
+            },[count ,dependency 2...])
+
+
+        [] ---> if the dependency is empty means ,it runs only once at initially.
+            
+              

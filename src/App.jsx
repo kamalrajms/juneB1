@@ -12,6 +12,10 @@ import Darkmode from "./Component/Darkmode";
 import Field from "./Component/Field";
 import RegForm from "./Component/RegForm";
 import ConditionFrom from "./Component/ConditionFrom";
+import UseEffectHook from "./Component/UseEffectHook";
+import Timer from "./Component/Timer";
+import StopWatch from "./Component/StopWatch";
+import UseEffectAPI from "./Component/UseEffectAPI";
 
 export default function App() {
   const name = "rahul";
@@ -28,7 +32,11 @@ export default function App() {
 
   return (
     <>
-    <ConditionFrom/>
+      <UseEffectAPI />
+      <StopWatch />
+      <Timer />
+      <UseEffectHook />
+      <ConditionFrom />
       <RegForm />
       <Field />
       <Darkmode />
