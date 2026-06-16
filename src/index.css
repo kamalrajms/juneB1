@@ -11,10 +11,24 @@
   background-color: blue;
   padding: 20px;
 }
-.Externalstyle{
-    margin: 100px;
-    background: #000;
+.Externalstyle {
+  margin: 100px;
+  background: #000;
 }
-.ModuleStyle{
-    margin: 500px;
+.ModuleStyle {
+  margin: 500px;
+}
+
+.img-container {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #333;
+  cursor: pointer;
+  background-color: aqua;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #333;
+  cursor: pointer;
 }

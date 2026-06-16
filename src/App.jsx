@@ -16,6 +16,8 @@ import UseEffectHook from "./Component/UseEffectHook";
 import Timer from "./Component/Timer";
 import StopWatch from "./Component/StopWatch";
 import UseEffectAPI from "./Component/UseEffectAPI";
+import UseRefHook from "./Component/UseRefHook";
+import First from "./Context/First";
 
 export default function App() {
   const name = "rahul";
@@ -32,6 +34,11 @@ export default function App() {
 
   return (
     <>
+      <div style={{padding:"20px",border:"2px solid #333"}}>
+        <h2>app component--{name}</h2>
+        <First name={name}/>
+      </div>
+      <UseRefHook />
       <UseEffectAPI />
       <StopWatch />
       <Timer />

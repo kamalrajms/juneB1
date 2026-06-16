@@ -110,4 +110,34 @@
 
         [] ---> if the dependency is empty means ,it runs only once at initially.
             
-              
+
+16/06/2026
+
+## useRef()
+
+    useRef is a react hook that gives you  a box (.current) you can store anything
+    in it -- number,string,object,function,even  DOM elements.
+
+    That value persists between renders.
+
+    Updating it does not causes your component to re-render.
+
+    {current:value}
+
+    syntax:
+
+        const variablename=useRef(initiateValue)
+
+## UseContext()
+
+    Passing data from a parent component down to deeply nested child component
+    is annoying.
+    Normally,you'd hae to pass props manually through each level(called props)
+
+    UseContext lets you skip all the middle component and share data directly.
+
+
+                create a context
+                Provide a  value
+                Consume the value
+                
