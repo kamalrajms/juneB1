@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { Pass } from "../App";
 
-export default function Third({ name }) {
+export default function Third() {
+  const passName = useContext(Pass);
   return (
     <div style={{ padding: "20px", border: "2px solid #333" }}>
-      <h2>Third component--{name}</h2>
+      <h2>Third component---{passName}</h2>
     </div>
   );
 }

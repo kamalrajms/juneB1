@@ -141,3 +141,24 @@
                 Provide a  value
                 Consume the value
                 
+
+    In a component we can create only one createcontext() hook.
+
+
+## Domain
+
+    https://myshop.example.com
+
+
+    https---> Protocal
+    myshop--->subDomain
+    example--->Domain name
+    com--->TLD
+
+    .com---commercial
+    .edu--- education
+    .org--- organization
+    .in--- india
+    .biz---Business
+    .net---n/w
+    .info--- infomation 
