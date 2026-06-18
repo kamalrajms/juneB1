@@ -162,3 +162,48 @@
     .biz---Business
     .net---n/w
     .info--- infomation 
+
+
+18/06/2026
+
+## useReducer()
+
+    syntax:
+
+        const [state,dispatch]=useReducer(reducerFunction,initialState)
+
+        state-- current state (like usestate value).
+        dispatch(action)---a function to tell reducer what to do.
+        reducerFunction(state,action)--- the logic that returns a new state.
+        initialState-- starting value.
+
+## Routing in React && nested routing
+
+    Routing means navigation b/w differennt pages in a web app without 
+    refreshing the browser.
+
+    In traditional websites ,clicking a  link reloads the whole page.
+
+    in react (single page Applications) ,routing lets us changes the  view  
+    without reloading.
+
+            Better Performance(no full page reloads)
+            smooth user experience
+            Control over navigation without server request.
+
+    commend:npm i react-router-dom
+
+
+    basic structure:
+
+        <BrowserRouter>
+            <Router>
+                <Route path="address path" element={component name}/>
+                <Route path="/home" element={<Home/>}/>
+                <Route path="/about" element={<About/>}/>
+                <Route path="" element={}/>
+                <Route path="" element={}/>
+                <Route path="" element={}/>
+                <Route path="" element={}/>
+            </Router>
+        </BrowserRouter>
