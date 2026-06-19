@@ -207,3 +207,38 @@
                 <Route path="" element={}/>
             </Router>
         </BrowserRouter>
+
+
+## useParam ()----> real data from url
+
+    useParam is a hook provided by react Router that return an object containing
+    key/value pairs of the  dynamic parameters from the current URL.
+    These parameters are defined in your route path using  a colon (:) followed
+    by a  parameters name.
+
+
+    for eg: if you have a route defined as /blog/:id and the current URL is
+    /blog/hello-world.
+
+    useParam() returns {id:"hello-world"}
+
+
+     the colon (:) tells react  router  that [id] is a dynamic parameters--not 
+     a literal path segment.
+
+
+## useNavigate()
+
+    useNavigate  is a hook provided by react router that return a function
+    allowing you to programmitcally navigate to different router  (changes the url)
+    in response to events like from submission ,button click ,data fetching results.
+
+    syntax:
+
+        const navigate:useNavigate();
+
+## useId ()
+
+    useId is a react hook introduced in react 18.
+
+    it is used to generate unique IDs that  are consistent b/w server and  client.
